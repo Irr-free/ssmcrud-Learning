@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.ssmcrud.MvcTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 32.37 s <<< FAILURE! - in com.ssmcrud.MvcTest
+testPage(com.ssmcrud.MvcTest)  Time elapsed: 29.376 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.ssmcrud.MvcTest.testPage(MvcTest.java:47)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.ssmcrud.MvcTest.testPage(MvcTest.java:47)
+Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.ssmcrud.MvcTest.testPage(MvcTest.java:47)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.ssmcrud.MvcTest.testPage(MvcTest.java:47)
+

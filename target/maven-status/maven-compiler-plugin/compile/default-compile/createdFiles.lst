@@ -1,0 +1,17 @@
+com\ssmcrud\bean\EmployeeExample$Criterion.class
+com\ssmcrud\bean\DepartmentExample$GeneratedCriteria.class
+com\ssmcrud\bean\DepartmentExample.class
+com\ssmcrud\dao\DepartmentMapper.class
+com\ssmcrud\controller\DepartmentController.class
+com\ssmcrud\bean\DepartmentExample$Criteria.class
+com\ssmcrud\bean\EmployeeExample$Criteria.class
+com\ssmcrud\service\DepartmentService.class
+com\ssmcrud\bean\EmployeeExample$GeneratedCriteria.class
+com\ssmcrud\service\EmployeeService.class
+com\ssmcrud\bean\Department.class
+com\ssmcrud\bean\Employee.class
+com\ssmcrud\controller\EmployeeController.class
+com\ssmcrud\dao\EmployeeMapper.class
+com\ssmcrud\bean\DepartmentExample$Criterion.class
+com\ssmcrud\bean\Msg.class
+com\ssmcrud\bean\EmployeeExample.class

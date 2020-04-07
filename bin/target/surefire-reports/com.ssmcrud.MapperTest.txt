@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.ssmcrud.MapperTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 35.946 s <<< FAILURE! - in com.ssmcrud.MapperTest
+testCRUD(com.ssmcrud.MapperTest)  Time elapsed: 29.843 s  <<< ERROR!
+org.mybatis.spring.MyBatisSystemException: 
+nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.ssmcrud.MapperTest.testCRUD(MapperTest.java:76)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.ssmcrud.MapperTest.testCRUD(MapperTest.java:76)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.ssmcrud.MapperTest.testCRUD(MapperTest.java:76)
+Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.ssmcrud.MapperTest.testCRUD(MapperTest.java:76)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.ssmcrud.MapperTest.testCRUD(MapperTest.java:76)
+
