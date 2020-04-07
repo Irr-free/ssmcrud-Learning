@@ -14,6 +14,7 @@ IDEA，SSM框架写的员工增删改查
 • 数据库-MySQL• 前端框架-bootstrap快速搭建简洁美观的界面
 • 项目的依赖管理-Maven• 分页-pagehelper
 
+PS:dbproperties中的数据库的username和password没有加入
 
 =======
 # it_zb-Repository
