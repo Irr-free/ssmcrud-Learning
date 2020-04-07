@@ -137,7 +137,7 @@
     <!-- 标题 -->
     <div class="row">
         <div class="col-md-12">
-            <h1>SSM-CRUD BY PL</h1>
+            <h1>员工查询列表</h1>
         </div>
     </div>
     <!-- 按钮 -->
